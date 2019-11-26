@@ -11,10 +11,11 @@
             
 </head>
  <body>
+    <?php require "popup.php" ?>
  	 <div class="nav">
         <a href="index.php" class="button" id="home">home</a>
-        <button id="notification"><i class="fas fa-envelope"></i></button>
-        <a href="profile.php" class="button" id="profile"><i class="fas fa-user"> profile</i></a>
+        <button id="notification" ><i class="fas fa-envelope"></i></button>
+        <a class="button" id="profile" onclick="document.getElementById('modal-wrapper').style.display='block'" ><i > profile</i></a>
         <ul class="options">
             <li><a href="groups.php"> groups </a></li>
             <li><a href="index.php#contact_us">help</a></li>

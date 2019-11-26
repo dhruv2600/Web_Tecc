@@ -21,8 +21,8 @@ a.button {
 }
 
 #profile{
-    background: url("profile_icon.png");
-    background-color: transparent;
+    
+    background-color: grey;
     position :absolute;
     right : 30px;
     top: 20px;

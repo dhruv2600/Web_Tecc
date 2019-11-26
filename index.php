@@ -19,7 +19,7 @@ session_start()
       <p><img src="transport.jpg" id="image"></p>
       <p id="info" class="normal">
           This is where we will write about how to use the website and its features?
-      </p>
+   
 
     </div>
     <div class="about_us">
@@ -28,8 +28,11 @@ session_start()
         </p>
     </div>
     <div id="contact_us">
+
         <p class="normal" id="contact_us">
+
             You know, made by us contact us or whatever.
+            
         </p>
     </div>
    
